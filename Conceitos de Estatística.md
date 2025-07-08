@@ -1,4 +1,4 @@
-# ESTATÍSTICA - PRINCIPAIS CONCEITOS E FÓRMULAS
+# ESTATÍSTICA - PRINCIPAIS CONCEITOS
 
 Esse documento contém um resumo claro e direto do meu aprendizado em Estatística. Fique a vontade para ler e consultar sempre que precisar.
 
@@ -50,8 +50,6 @@ Esse documento contém um resumo claro e direto do meu aprendizado em Estatísti
 
 ---
 
-
-
 <mark>**Tabelas Analíticas**</mark>
 
    
@@ -68,8 +66,6 @@ Esse documento contém um resumo claro e direto do meu aprendizado em Estatísti
 | Amarelo  | <mark>4</mark> |
 | Total    | 20             |
 
-
-
 **Tabela de Frequência Relativa:** É similar a tabela frequência, mas essa por sua vez <u>exibe a proporção ou porcentagem</u> das vezes <u>que um valor ou categoria aparece</u>, em relação ao todo.
 
 **Exemplo:**
@@ -81,8 +77,6 @@ Esse documento contém um resumo claro e direto do meu aprendizado em Estatísti
 | Verde    | 4          | <mark>20%</mark>    |
 | Amarelo  | 4          | <mark>20%</mark>    |
 | Total    | 20         | 100%                |
-
-
 
 <mark>**Tabela com Agrupamentos de Intervalo**</mark>
 
@@ -100,19 +94,13 @@ Esse documento contém um resumo claro e direto do meu aprendizado em Estatísti
 | 40 a 49           | 4                         |
 | Total             | 25                        |
 
-
-
 <mark>**Medidas de Posição**</mark>
-
-
 
 **Moda:** É o valor ou categoria que <u>aparece com maior frequência</u> em um conjunto de dados.
 
 * **Amodal:** Possui apenas uma moda.
 
 * **Bimodal:** Possui duas modas.
-
-
 
 **Mediana:** É o valor que <u>ocupa a região central</u> no conjunto de dados. A mediana divide o conjunto em duas metades iguais: 50% acima do valor da mediana e 50% abaixo do valor da mediana.
 
@@ -132,8 +120,6 @@ Para determinar a mediana:
       
       3. Formula da Mediana: <mark>(P1V + P2V) / 2</mark>
 
-
-
 **Média**
 
     A média é o <u>valor central típico</u> de um conjunto de dados.
@@ -143,3 +129,104 @@ Calcular a média:
 1. Somar todos os valores do conjunto de dados.
 
 2. Dividir a soma pelo número total de valores.
+
+**Exemplo:**
+
+| Dia da Semana | Temperatura |
+| ------------- | ----------- |
+| Segunda       | 30          |
+| Terça         | 31          |
+| Quarta        | 29          |
+| Quinta        | 32          |
+| Sexta         | 30          |
+| Sábado        | 31          |
+| Domingo       | 29          |
+
+1) 30+31+29+32+30+31+29=212
+
+2) 212/7 = 30.29
+
+3) Média de temperatura da semana = 30.29C
+
+
+
+**<mark>Média Ponderada</mark>**
+
+    É o cálculo da média <u>levando em conta o peso de cada valor</u> no conjunto de dados. Ao invés de cada valor contribuir igualmente, <u>alguns têm mais influência </u>no resultado final. 
+
+**Etapas:**
+
+1. Multiplicar cada valor pelo seu peso.
+
+2. Somar todos os produtos da multiplicação.
+
+3. Somar todos os pesos.
+
+4. Dividir a soma dos produtos pela soma dos pesos.
+
+Exemplo: Média de Notas Escolares
+
+| Componentes da Nota | Nota | Peso |
+| ------------------- | ---- | ---- |
+| Prova 1             | 80   | 30%  |
+| Prova 2             | 70   | 50%  |
+| Trabalhos           | 90   | 20%  |
+
+1. - Prova 1: 80×0.30  = 24
+   
+   - Prova 2: 70×0.50  = 35
+   
+   - Trabalhos: 90×0.20  = 18
+
+2. 24+35+18=77
+
+3. Média Ponderada = 77 pontos
+
+
+
+**<mark>Medidas de Dispersão</mark>**
+
+    Tem como objetivo verificar como os dados estão em torno da média, em um conjunto de dados, e o quão dispersos eles estão.
+
+* Grau de Homoheneidade e Heterogeneidade dos dados
+  
+  * Baixa dispersão indica que os dados são semelhantes e próximos da média
+  
+  * Alta dispersão indica que os dados são mais variados e afastados da média.
+
+* Complementa as medidas de Tendência Central
+  
+  * As medidas de dispersão adicionam informações cruciais sobre a distribuição dos valores
+
+* Avaliar a Confiabilidade da Média
+  
+  * Se os dados tem baixa dispersão, a média é confiável
+  
+  * Se a dispersão é alta a média pode ser menos confiável
+
+* Identificar Outliers
+  
+  * Uma dispersão alta pode indicar a presença de valores muito diferentes do restante dos dados.
+
+
+
+**Intervalo:** Representa a diferença entre o maior e o menor valor em um conjunto de dados.
+
+**Fórmula:** Intervalo = Maior Valor - Menor Valor
+
+**Exemplo:** Idade em um grupo de amigos
+
+* Idades [22,25,24,31,32,37,38,31]
+1. Valor Maior: 38
+
+2. Valor Menor: 22
+
+3. Cálculo: 38 - 22 = 16
+
+4. Intervalo = 16
+
+
+
+Variância e Desvio Padrão
+
+...
